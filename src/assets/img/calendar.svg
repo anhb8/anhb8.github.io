@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 36 36" id="calendar">
+    <rect width="33" height="27" x="2" y="5" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></rect>
+    <line x1="2" x2="38" y1="11.7" y2="11.7" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="14" x2="16" y1="16" y2="16" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="21" x2="23" y1="16" y2="16" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="28" x2="30" y1="16" y2="16" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="28" x2="30" y1="20" y2="20" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="21" x2="23" y1="20" y2="20" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="14" x2="16" y1="20" y2="20" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="7" x2="9" y1="20" y2="20" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="7" x2="9" y1="24" y2="24" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="14" x2="16" y1="24" y2="24" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="21" x2="23" y1="24" y2="24" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="28" x2="30" y1="24" y2="24" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="7" x2="9" y1="28" y2="28" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="14" x2="16" y1="28" y2="28" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="21" x2="23" y1="28" y2="28" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="8" x2="8" y1="1" y2="6" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+    <line x1="29" x2="29" y1="1" y2="6" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"></line>
+</svg>
