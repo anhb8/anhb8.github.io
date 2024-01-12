@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import contactImg from "../../assets/img/contact-img.svg";
-import './App.css';
+import contactImg from "../public/contact-img.svg";
+import './Contact.css';
 import TrackVisibility from "react-on-screen";
 
 const Contact = () => {
