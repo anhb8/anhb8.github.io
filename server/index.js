@@ -7,7 +7,7 @@ require('dotenv').config()
 
 const PORT = process.env.PORT || 3001;
 const corsOptions = {
-    origin: 'https://anhb8.github.io',
+    origin: 'https://anhb8.github.io/',
     methods: 'POST',
   };
   
@@ -24,8 +24,8 @@ app.get("/api", (req, res) => {
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_ADDRESS,
-    pass: process.env.PASS
+    user: 'alinguyen018@gmail.com',
+    pass: 'scmo nase rcjk edxn'
   },
 });
 
