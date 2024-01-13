@@ -6,11 +6,15 @@ const bodyParser = require('body-parser');
 require('dotenv').config()
 
 const PORT = process.env.PORT || 3001;
-
+const corsOptions = {
+    origin: 'https://anhb8.github.io/',
+    methods: 'POST',
+  };
+  
 const app = express();
 
 app.use(express.static(path.resolve(__dirname, '../build')));
-app.use(cors())
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
