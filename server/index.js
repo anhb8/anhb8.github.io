@@ -24,8 +24,8 @@ app.get("/api", (req, res) => {
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'alinguyen018@gmail.com',
-    pass: 'scmo nase rcjk edxn'
+    user: process.env.EMAIL_ADDRESS,
+    pass: process.env.PASS
   },
 });
 
@@ -64,7 +64,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../build', 'index.html'));
 });
 
-// Showing that the server is up and running
 app.listen(PORT, () => {
     console.log(`Server is online on port: ${PORT}`)
   })
