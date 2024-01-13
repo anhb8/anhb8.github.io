@@ -17,7 +17,7 @@ app.use(express.static(path.resolve(__dirname, '../build')));
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
 });
 
@@ -37,7 +37,7 @@ contactEmail.verify((error) => {
   }
 });
 
-app.post("/",  bodyParser.urlencoded({ extended: false }), (req, res) => {
+app.post("/api/contact",  bodyParser.urlencoded({ extended: false }), (req, res) => {
   const name = req.body.firstName + req.body.lastName;
   const email = req.body.email;
   const message = req.body.message;
