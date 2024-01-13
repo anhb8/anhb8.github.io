@@ -28,7 +28,7 @@ const Contact = () => {
         console.log(formDetails);
         e.preventDefault();
         setButtonText("Sending...");
-        let response = await fetch("/api/contact", {
+        let response = await fetch("https://mailing-form.onrender.com//api/contact", {
           method: "POST",
           headers: {
             "Content-Type": "application/json;charset=utf-8",

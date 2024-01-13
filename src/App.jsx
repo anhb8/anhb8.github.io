@@ -12,7 +12,7 @@ import Banner from './components/banner/Banner';
 
 const App = () => {
     useEffect(() => {
-        fetch("/api")
+        fetch("https://mailing-form.onrender.com/api")
         .then((res) => res.json)
     }, [])
 
